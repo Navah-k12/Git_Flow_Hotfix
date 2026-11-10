@@ -12,13 +12,13 @@ namespace Git_Flow_Hotfix
             Player personaje = new Player
             {
                 Name = "Guerrero",
-                Health = -100,
+                Health = 100, // 100 
                 Attack = 50,
                 Defense = 30,
                 Level = 1
             };
-
-            Console.WriteLine($"Personaje creado: {personaje.Name}");
+            // Personaje
+            Console.WriteLine($"Personaje creado: {personaje.Name} y {personaje.Level}");
             
         }
     }
